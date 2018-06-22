@@ -6,13 +6,13 @@ LunarX node is the engine part of the whole network, running on individual devic
 
 >src-x-node
 
-the entrance of the node.
+The entrance of the node.
 
 >src-x-virtual-fs
 
-the local vertual file system to manage blocks. Major functionaliy includes garbage collecting, blocks generating, blocks merging.
+The local vertual file system to manage blocks. Major functionaliy includes garbage collecting, blocks generating, blocks merging.
 
 >src-x-io
 
-the io module for upper layer services.
+The IO module for upper layer services. This module, for the concern of performance, we use C++ to develop, and wrapped by JNI for invoking on JAVA side.
  
