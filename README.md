@@ -6,6 +6,8 @@
 
 LunarX node is the engine part of the whole network, running on individual devices to provide data chain services
 
+>White papers: https://github.com/LunarX-ONE/White-Paper
+
 >src-x-node
 
 The entrance of the node.
